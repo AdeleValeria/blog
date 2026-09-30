@@ -1,22 +1,8 @@
+```html
 {{ define "main" }}
-<section class="home-intro">
-  <h1 class="sr-only">{{ .Site.Title }}</h1>
-  <div class="home-intro-text">
-    {{ with .Content }}
-      {{ . }}
-    {{ else }}
-      <p>{{ .Site.Params.description }}</p>
-    {{ end }}
-  </div>
-</section>
-
 <div class="home-latest-section">
   <div class="home-latest-header">
-    <p class="home-section-title">{{ i18n "latest_posts" }}</p>
-    {{- $posts := where .Site.RegularPages "Section" "posts" -}}
-    {{- if gt (len $posts) 3 }}
-    <a href="{{ "posts/" | relURL }}" class="home-latest-link">{{ i18n "view_all" }}</a>
-    {{- end }}
+    <p class="home-section-title">Posts</p>
   </div>
 
   <div class="home-post-list">
