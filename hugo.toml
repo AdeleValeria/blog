@@ -3,7 +3,7 @@ locale = "en"
 title = "Shizuka"
 enableRobotsTXT = true
 enableGitInfo = false
-paginate = 5
+pagerSize = 5
 
 [module]
   [module.hugoVersion]
