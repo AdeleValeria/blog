@@ -14,4 +14,4 @@ I usually share my life updates and reflections on social media, but I’m hopin
 
 I’ve always loved writing, whether it's simply typing behind a screen like what I'm doing right now, or sitting down to write an actual handwritten letter to a friend. I think slowing down and reflecting by writing down my thoughts helps me be a little more intentional about how I live.
 
-And I’m giving myself a very ambitious goal for this blog: to write every day. Some days, it might be a longer post. Other days, it might be nothing more than a sentence or two. Let’s give it a try, shall we?
+And I’m giving myself a very ambitious goal for this blog: to write every day. Some days, it might be a longer post. Other days, it might be nothing more than a sentence or two. Let’s give it a try, shall we?!
