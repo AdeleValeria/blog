@@ -1,6 +1,6 @@
-baseURL = ""
+baseURL = "https://adelev.netlify.app/"
 locale = "en"
-title = "Shizuka"
+title = "Adele Valeria's Blog"
 enableRobotsTXT = true
 enableGitInfo = false
 pagerSize = 5
@@ -10,13 +10,12 @@ pagerSize = 5
     min = "0.100.0"
 
 [author]
-  name = "Shizuka"
-  email = "hello@example.com"
+  name = "Adele Valeria"
+  email = "hello.adelev@gmail.com"
 
 [params]
-  description = "A minimal Hugo blog theme."
+  description = "Hoping to share life updates here more regularly than on social media."
   keywords = ["blog"]
-  ogImage = "/images/og-default.png"
   rssLimit = 20
   dateFormat = "January 2, 2006"
   github = ""
