@@ -16,6 +16,7 @@ pagerSize = 5
 [params]
   description = "Hoping to share life updates here more regularly than on social media."
   keywords = ["blog"]
+  ogImage = "/images/og-default.png"
   rssLimit = 20
   dateFormat = "January 2, 2006"
   github = ""
