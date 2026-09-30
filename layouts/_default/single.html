@@ -13,6 +13,10 @@
     {{- end }}
   </header>
 
+  <div class="article-content" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+
   {{- if .Params.toc }}
   <div class="toc">
     <p class="toc-title">{{ i18n "toc_title" }}</p>
