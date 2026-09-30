@@ -1,21 +1,29 @@
-<div class="site-footer-bottom">
-  <span>
-    <a href="https://github.com/carmelolg/shizuka" target="_blank" rel="noopener noreferrer">Shizuka</a>
-    theme by
-    <a href="https://github.com/carmelolg" target="_blank" rel="noopener noreferrer">carmelolg</a>
-  </span>
+<footer class="site-footer">
+  <div class="site-wrapper">
+    <div class="site-footer-bottom">
+      <span>
+        <a href="https://github.com/carmelolg/shizuka" target="_blank" rel="noopener noreferrer">Shizuka</a>
+        theme by
+        <a href="https://github.com/carmelolg" target="_blank" rel="noopener noreferrer">carmelolg</a>
+      </span>
 
-  <div>
-    <span>
-      {{- $posts := where .Site.RegularPages "Section" "posts" -}}
-      {{ i18n "articles_written" (len $posts) }}
-    </span>
+      <div class="footer-right">
+        <span>
+          {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+          {{ i18n "articles_written" (len $posts) }}
+        </span>
 
-    <span style="margin-left: 2rem;">
-      Powered by
-      <a href="https://gohugo.io/">GoHugo</a>,
-      <a href="https://github.com/AdeleValeria/blog">GitHub</a>,
-      and <a href="https://www.netlify.com/">Netlify</a>.
-    </span>
+        <span>
+          Powered by
+          <a href="https://gohugo.io/">GoHugo</a>,
+          <a href="https://github.com/AdeleValeria/blog">GitHub</a>,
+          and <a href="https://www.netlify.com/">Netlify</a>.
+        </span>
+      </div>
+    </div>
   </div>
-</div>
+</footer>
+
+{{- if and .Site.Params.googleAnalyticsID .Site.Params.enableCookieConsent }}
+{{ partial "cookie-consent-script.html" . }}
+{{- end }}
