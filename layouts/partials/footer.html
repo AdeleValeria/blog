@@ -1,10 +1,8 @@
 <footer class="site-footer">
-  <div class="site-wrapper">
+    <div class="site-footer-grid">
     <!-- Bottom bar -->
     <div class="site-footer-bottom">
-      <span>&copy; {{ now.Year }} {{- with .Site.Params.website }} <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Site.Params.authorName }}</a>{{- end }} — {{ i18n "all_rights_reserved" }}</span>
-    </div>
-  </div>
+      <p class="site-footer-meta"><a href="https://github.com/carmelolg/shizuka" target="_blank" rel="noopener noreferrer">Shizuka</a> theme by <a href="https://github.com/carmelolg" target="_blank" rel="noopener noreferrer">carmelolg</a>. Powered by Hugo and Netlify.</p>
 </footer>
 
 {{- if and .Site.Params.googleAnalyticsID .Site.Params.enableCookieConsent }}
