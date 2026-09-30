@@ -123,10 +123,7 @@ li {
 }
 
 hr {
-  border: none;
-  border-top: 1px solid var(--color-border);
-  width: 3rem;
-  margin: var(--space-lg) auto;
+  display: none;
 }
 
 /* ==============================
@@ -231,7 +228,6 @@ main {
 
 .post-list-item {
   padding: 0;
-  border-bottom: 1px solid var(--color-border);
   margin-bottom: 0;
 }
 
@@ -346,7 +342,6 @@ main {
 .article-header {
   margin-bottom: var(--space-xl);
   padding-bottom: var(--space-lg);
-  border-bottom: 1px solid var(--color-border);
 }
 
 .article-breadcrumb {

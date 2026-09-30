@@ -8,7 +8,7 @@ series: []
 toc: false
 ---
 
-# Greetings from New York City!
+### Greetings from New York City!
 
 I usually share my life updates and reflections on social media, but I’m hoping to transition out of them. I am not joking when I say that my Instagram posts and stories are already essay-like! 
 
