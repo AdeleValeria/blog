@@ -44,8 +44,8 @@
         graphcommentId: "Adele-Valeria-s-Blog",
 
         behaviour: {
-          uid: {{ .File.UniqueID | jsonify }},
-          url: {{ .Permalink | jsonify }},
+          uid: "{{ .RelPermalink }}",
+          url: "{{ .Permalink }}",
           readonly: false,
           sort: "newest",
           countPerPage: 10
