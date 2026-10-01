@@ -12,7 +12,7 @@ Today, I went to my <a href="https://https://www.church.nyc/home">Church of the 
 
 Galatians 5:22–23 says:
 
-> “But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control. Against such things there is no law.”
+> “But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law.”
 
 One of the discussion questions was:
 
@@ -27,12 +27,16 @@ The Scripture is clear enough that I am the person to be transformed, and not th
 
 And what leads to this inner transformation? From previous sermons, I learned that it is through abiding in God. It means that, like a branch connected to the vine, which is Christ, I bear fruit because I remain in Him. Being gentle, faithful, and good are not things I have to manufacture on my own. They are the natural consequences of remaining in God.
 
-I watched a sermon a while ago by Pastor Peter Tan-Chi, and he said something that has stayed with me:
+I watched a <a href="https://sermons.love/peter-tan-chi/20562-peter-tan-chi-finish-well-walk-by-the-spirit.html">sermon</a> a while ago by Pastor Peter Tan-Chi, and he said something that has stayed with me:
 
 > “The Christian life is not hard. It’s impossible. The Christian life is not difficult. It is supernatural.”
 
 Let me close with a personal experience of mine. During part of my graduate studies, I had drifted away from God and found myself becoming a prodigal again. I was also struggling with a destructive habit that truly felt like bondage. Then, when I hit rock bottom early last year, I repented and turned back to God.
 
-What happened afterward was something I couldn’t really explain. Somehow, my destructive habit no longer had the same hold on me. I no longer desired what I used to desire. Something in my heart had changed. It wasn’t me who did the changing. God did. 
+What happened afterward was something I couldn’t really explain. Somehow, my destructive habit no longer had the same hold on me! I no longer desired what I used to desire. Something in my heart had changed. 
 
-I certainly tried to break that destructive habit on my own in the past, relying on my own strength, but I kept failing and failing. And now, I am completely free. Supernatural, indeed.
+It wasn’t me who did the changing. God did. 
+
+I certainly tried to break that destructive habit on my own in the past, relying on my own strength, but I kept failing and failing. And now, I am completely free. 
+
+Supernatural, indeed.
