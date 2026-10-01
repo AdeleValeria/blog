@@ -13,10 +13,6 @@
     {{- end }}
   </header>
 
-  <div class="article-content" itemprop="articleBody">
-    {{ .Content }}
-  </div>
-
   {{- if .Params.toc }}
   <div class="toc">
     <p class="toc-title">{{ i18n "toc_title" }}</p>
@@ -26,6 +22,21 @@
 
   <div class="article-body" itemprop="articleBody">
     {{ .Content }}
+    <div class="comments">
+      <div id="comments"></div>
+
+      <script
+        src="https://giga.mobile/embed.js"
+        data-site-key="site_3d228729ab204195aba7"
+        data-container-id="comments"
+        data-page-id="{{ .RelPermalink }}"
+        data-page-url="{{ .Permalink }}"
+        data-page-title="{{ .Title }}"
+        data-theme="auto"
+        data-features="sort,theme-toggle,comment-format,comment-vote,comment-reply,comment-permalink,comment-report,notify-browser"
+        defer
+      ></script>
+    </div>
   </div>
 
   <footer class="article-footer">
