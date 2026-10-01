@@ -16,6 +16,9 @@
               {{ .Date.Format $.Site.Params.dateFormat }}
             </time>
             <span class="post-list-reading">{{ .ReadingTime }} min</span>
+            <a href="{{ .RelPermalink }}#comments" class="post-list-comments">
+              Comments
+            </a>
           </div>
         </div>
 
