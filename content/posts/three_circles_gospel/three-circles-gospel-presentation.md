@@ -7,7 +7,7 @@ categories: []
 series: []
 toc: false
 ---
-![](./three_circles_gospel.png)
+![alt text](three_circles_gospel.png)
 
 For the past two consecutive Saturdays, I have been learning how to share the hope that I have in Christ. Last Saturday, I participated in *Send Saturday*, organized by Church of the City in Manhattan. Today, I joined a half-day training led by <a href="https://www.iamsecond.com/lslabs/">Live Second Labs</a>.
 
@@ -52,3 +52,5 @@ When we do that, God makes us a new creation. Our relationship with Him is resto
 That is the gospel.
 
 And that is literally the story that saved my life.
+
+[def]: three_circles_gospel.png
