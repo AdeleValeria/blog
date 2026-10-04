@@ -7,7 +7,7 @@ categories: []
 series: []
 toc: false
 ---
-![alt text](three_circles_gospel.png)
+![hand-drawn :D](three_circles_gospel.jpg)
 
 For the past two consecutive Saturdays, I have been learning how to share the hope that I have in Christ. Last Saturday, I participated in *Send Saturday*, organized by Church of the City in Manhattan. Today, I joined a half-day training led by <a href="https://www.iamsecond.com/lslabs/">Live Second Labs</a>.
 
