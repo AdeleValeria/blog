@@ -25,7 +25,7 @@ But what about the people who will miss you, you might ask. Where will they go i
 
 Let me say this.
 
-If you miss me enough to want to keep a memorial for me, then let us meet again.
+If you miss me enough to want to keep a memorial of me, then let us meet again.
 
 Let us have our reunion in Heaven.
 We will see each other again if you put your faith in Jesus.
