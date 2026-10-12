@@ -8,7 +8,7 @@ series: []
 toc: false
 ---
 
-At one point in my life, my idea of an ideal life was to live in the middle of the jungle all by myself. I worked through this with a therapist over multiple sessions, but what really stuck with me was her reminder that even Jesus had 12 disciples. We are not meant to be lone wolves. Funny enough, this was not Christian counseling! I don't know whether my therapist was a believer, although I did mention to her at the beginning that my Christian faith plays a big role in my life. And praise God! He is sovereign. I am grateful that He used my therapist to speak to me.
+At one point in my life, my idea of an ideal life was to live all by myself in the middle of the jungle. I worked through this with a therapist over multiple sessions, but what really stuck with me was her reminder that even Jesus had 12 disciples! We are never meant to be lone wolves. Funny enough, this wasn't Christian counseling, and I don't know whether my therapist had any religious affiliation. I did mention to her at the beginning that my Christian faith plays a big role in my life, though. And praise God! He is sovereign, and He used my therapist to speak to me.
 
 However, even when I was tempted to withdraw and live in seclusion, I did not appear antisocial at all. If anything, I have always been known as a connector, someone who introduces people to each other and brings people together through involvement in various communities and social groups. Even back then, I was known as the person who seemed to know everyone.
 
@@ -18,7 +18,7 @@ But God has changed my heart. I now see friendships as opportunities to extend G
 
 So, what changed in the way I approached relationships? Pride.
 
-Don't get me wrong, though. I am not saying that receiving from our friendships and communities is unimportant. In fact, that is another area where I have had to confront my pride. I have realized that it takes humility to be willing to receive. It takes humility to ask for help. It takes humility to be vulnerable and ask others to pray for you.
+Don't get me wrong. I am not saying that receiving from our friendships and communities is unimportant. In fact, that is another area where I have had to confront my pride. I have realized that it takes humility to be willing to receive. It takes humility to ask for help. It takes humility to be vulnerable and ask others to pray for you.
 
 Pride, on the other hand, keeps us from receiving. It does not want us to give other people the opportunity to serve us. Instead, it encourages us to feel good about ourselves for always being the one who gives, for being the person others can rely on, and for not needing anything in return. 
 
@@ -28,7 +28,7 @@ This reminds me of something Timothy Keller shared in his book The Meaning of Ma
 >
 >That gospel message should both humble and lift the believer up at the same time. It teaches us that we are indeed self-centered sinners. It perforates our illusions about our goodness and superiority. But the gospel also fills us with more love and affirmation than we could ever imagine. It means we don’t need to earn our self-worth through incessant service and work. It means also that we don’t mind so much when we are deprived of some comfort, compliment, or reward. We don’t have to keep records and accounts anymore. We can freely give and freely receive.
 
-What stood out to me in Keller's reflection is the connection between receiving from others and living by grace. If learning to receive means learning to live by grace, then I pray that God will continue to humble me. I feel that God has been using this ongoing process of confronting my pride to teach me to seek the good of others (1 Corinthians 10:24) and count others more significant than myself (Philippians 2:3), both in my individual interactions and in the communities I am part of. At the same time, He has been teaching me to receive from others with humility.
+What stood out to me in Keller's reflection is the connection between receiving from others and living by grace. If learning to receive means learning to live on the basis of grace, then I pray that God will continue to humble me. I feel that God has been using this ongoing process of confronting my pride to teach me to seek the good of others (1 Corinthians 10:24) and count others more significant than myself (Philippians 2:3), both in my individual interactions and in the communities I am part of. At the same time, He has been teaching me to receive from others with humility.
 
 God has brought me from wanting to live alone in the jungle to learning to give and receive more freely. Before moving to NYC, I was nominated and elected to serve as the Social Committee Chair for my campus graduate InterVarsity chapter and as the Social Director of my research lab. I am grateful for the rich communities God has planted me in and for how He has helped me appreciate these relationships more than I used to. Rather than leaving me feeling burnt out, these friendships and communities have become sources of refreshment for my soul.
 
