@@ -12,7 +12,8 @@ I have been meditating on the parable of the rich fool in Luke 12:
 
 > “The land of a rich man produced plentifully, and he thought to himself, ‘What shall I do, for I have nowhere to store my crops?’ And he said, ‘I will do this: I will tear down my barns and build larger ones, and there I will store all my grain and my goods. And I will say to my soul, “Soul, you have ample goods laid up for many years; relax, eat, drink, be merry.”’ But God said to him, ‘Fool! This night your soul is required of you, and the things you have prepared, whose will they be?’ So is the one who lays up treasure for himself and is not rich toward God.”
 
-Just before telling this parable, Jesus said, “Take care, and be on your guard against all covetousness, for one’s life does not consist in the abundance of his possessions.”
+Just before telling this parable, Jesus said: 
+> “Take care, and be on your guard against all covetousness, for one’s life does not consist in the abundance of his possessions.”
 
 One of the most life-changing talks I attended was at the Urbana conference in Phoenix, Arizona, in 2025. The speakers were a couple who run a construction company that has been richly blessed. One of the most striking decisions they made was to pay themselves only a salary comparable to that of a college teacher, choosing to live humbly even though they could certainly afford a lavish lifestyle.
 
