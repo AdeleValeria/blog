@@ -8,7 +8,7 @@ series: []
 toc: false
 ---
 
-**Reading Luke 18:29 hit my heart today:**
+Reading Luke 18:29 hit my heart today:
 
 > And he said to them, “Truly, I say to you, there is no one who has left house or wife or brothers or parents or children, for the sake of the kingdom of God, who will not receive many times more in this time, and in the age to come eternal life.”
 
