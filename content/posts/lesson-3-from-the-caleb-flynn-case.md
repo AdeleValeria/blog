@@ -1,5 +1,5 @@
 ---
-title: "Lesson 3 From the Caleb Flynn Case"
+title: "Lesson #3 From the Caleb Flynn Case"
 date: 2026-10-16T23:05:14-04:00
 summary: ""
 tags: []
