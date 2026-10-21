@@ -40,6 +40,6 @@ For the longest time, I prayed for God’s will to be done in my life, whatever 
 
 The day after I repented, I went to the UPPERROOM prayer room in Dallas. During the prayer meeting, the worship leader shared that she felt God wanted her to tell those in the room:
 
-![alt text](upperroom.png)
+![alt text](/images/upperroom.png)
 
 And so, I am choosing to do that. In faith, I eagerly wait for and look forward to what God has in store for me. Blessed be the name of the Lord!
