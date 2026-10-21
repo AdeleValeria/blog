@@ -29,7 +29,7 @@ other = "All articles"
 other = "Pagination"
 
 [archive_description]
-other = "All articles, from first to last."
+other = "All articles, from newest to oldest."
 
 [articles_written]
 one = "1 article written"
