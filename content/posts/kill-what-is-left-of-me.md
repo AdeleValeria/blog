@@ -1,7 +1,6 @@
 ---
 title: "Kill What Is Left of Me"
-date: 2026-10-22T17:20:05-04:00
-draft: true
+date: 2026-10-23T00:35:28-04:00
 summary: ""
 tags: []
 categories: []
