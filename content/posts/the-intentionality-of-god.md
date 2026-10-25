@@ -1,6 +1,6 @@
 ---
 title: "The Intentionality of God"
-date: 2026-10-25T02:27:24-04:00
+date: 2026-10-24T02:27:24-04:00
 summary: ""
 tags: []
 categories: []
