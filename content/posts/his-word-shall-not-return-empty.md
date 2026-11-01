@@ -12,7 +12,7 @@ Today, I went to the morning prayer set at Church of the City for the first time
 
 **Isaiah 55:11**
 
-“So shall my word be that goes out from my mouth; it shall not return to me empty, but it shall accomplish that which I purpose, and shall succeed in the thing for which I sent it.”
+> So shall my word be that goes out from my mouth; it shall not return to me empty, but it shall accomplish that which I purpose, and shall succeed in the thing for which I sent it.
 
 Lord Jesus,
 

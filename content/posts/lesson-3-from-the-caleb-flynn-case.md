@@ -20,7 +20,7 @@ I am encouraged by the support Caleb's parents have shown him. Honestly, rather 
 
 This also reminded me of 1 Samuel 2–3, where we read about Eli's wicked sons, who served as priests. What struck me was that Eli rebuked his sons (1 Samuel 2:23) but did not restrain them from their wickedness. In verse 29, God rebuked Eli for honoring his sons above Him.
 
-> "Why then do you scorn my sacrifices and my offerings that I commanded for my dwelling, and honor your sons above me by fattening yourselves on the choicest parts of every offering of my people Israel?"
+> Why then do you scorn my sacrifices and my offerings that I commanded for my dwelling, and honor your sons above me by fattening yourselves on the choicest parts of every offering of my people Israel?
 
 This case has led me to reflect more on what it means to build a godly family. It reminds me of the importance of spiritual leadership within a family, especially the responsibility of a father to lead his household in honoring God. Eli's failure to deal decisively with his sons' wickedness brought judgment upon his household and had consequences for the nation of Israel, including the defeat of its army and the capture of the Ark of God.
 

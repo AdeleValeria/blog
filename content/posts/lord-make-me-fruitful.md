@@ -10,7 +10,7 @@ toc: false
 
 My sister and I went apple picking last Saturday. There was one apple tree on the farm that produced tastier fruit than the others, so we spent most of our time picking apples from that tree. We even told others they should pick apples from it! This got me thinking about what Jesus says in Matthew 7:
 
-> “Beware of false prophets, who come to you in sheep’s clothing but inwardly are ravenous wolves. You will recognize them by their fruits. Are grapes gathered from thornbushes, or figs from thistles? So, every healthy tree bears good fruit, but the diseased tree bears bad fruit. A healthy tree cannot bear bad fruit, nor can a diseased tree bear good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. Thus you will recognize them by their fruits.”
+> Beware of false prophets, who come to you in sheep’s clothing but inwardly are ravenous wolves. You will recognize them by their fruits. Are grapes gathered from thornbushes, or figs from thistles? So, every healthy tree bears good fruit, but the diseased tree bears bad fruit. A healthy tree cannot bear bad fruit, nor can a diseased tree bear good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. Thus you will recognize them by their fruits.
 
 I truly feel like I need to have these verses bound in my heart. Throughout my life, I have been exposed to various churches and have met ministers who are well known for their healing and prophetic gifts. I have also met Christians who place a strong emphasis on the gift of tongues, as though not speaking in tongues means you are not filled with the Holy Spirit. Don't get me wrong, though. I myself am very much a continuationist, and in fact, I got saved in a Pentecostal church in 2018!
 
@@ -20,7 +20,7 @@ I do desire spiritual gifts, but only insofar as God sees fit to equip me to ser
 
 After all, Jesus also says later in Matthew 7:
 
-> “Not everyone who says to me, ‘Lord, Lord,’ will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven. On that day many will say to me, ‘Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many mighty works in your name?’ And then will I declare to them, ‘I never knew you; depart from me, you workers of lawlessness.’”
+> Not everyone who says to me, ‘Lord, Lord,’ will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven. On that day many will say to me, ‘Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many mighty works in your name?’ And then will I declare to them, ‘I never knew you; depart from me, you workers of lawlessness.’
 
 Now, back to the apple tree. It's natural to be drawn to what catches our attention, and in church, that might be impressive supernatural works. That's why discernment matters. What good is a beautifully decorated tree if it produces nasty fruit or bears no fruit at all? If I were a farmer looking to maximize my profits, I would want a tree that produced good fruit, and ideally, plenty of it!
 

@@ -18,7 +18,7 @@ Now, you might wonder: if it was a bungee jump of faith, what exactly was I trus
 
 I trust in this promise, as written in Romans 10:11:
 
-> “Everyone who believes in Him will not be put to shame.”
+> Everyone who believes in Him will not be put to shame.
 
 I am taking this promise at face value. I don’t know what lies ahead, but I trust that I serve a mighty God who will direct my steps.
 
