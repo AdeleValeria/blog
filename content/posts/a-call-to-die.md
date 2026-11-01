@@ -10,8 +10,6 @@ toc: false
 
 *Notes from a sermon by David Nasser at Lakepointe Church, compiled from mostly direct quotes taken from different parts of the sermon.*
 
-### 1. Get Over Yourself
-
 Cultural Christianity has taken the most radical message ever preached and reduced it. We've simmered it down to a self-improvement program in an effort to be user-friendly. It has turned the message of the cross into upgrading life. We've turned Christianity into an upgrade; we've reduced it to self-improvement. We've turned it into a user-friendly message instead of a message of crucifixion. We've turned it into cleaning up instead of giving up our best life now, instead of the crucified life.
 
 And when Jesus showed up 2,000 years ago, when Jesus came on the scene, He had one call. It was a call to die. And it offended religious people more than anybody else because it threatened to put them out of business. You want to really hack off people with a call-to-die message? Preach it to the church. The lost world isn't afraid of it. They know there's something broken. It offends the religious more than anybody else because it threatens to put them out of business.
@@ -21,6 +19,8 @@ But Jesus made it clear over and over again: Don't add me to your agenda. Make m
 The best thing I can do for myself is to get over myself. Get over my pride, my self-sufficiency, my need for control, my stubborn need to do it my way, my own selfish ambitions, my own selfish obsessions, my own need for protection, my own preferences, my tribe, my opinion, and my self-centered world.
 
 And so we soften it, we sanitize it, we repackage it, we domesticate it, we compromise it. And frankly, we do what we can to reduce the Gospel to an accessory. It doesn't become the mainframe; it just becomes one more add-on to everything else about who we are.
+
+### 1. Get Over Yourself
 
 **The crucified life begins with this reality: It's done. It's finished.**
 
@@ -44,3 +44,4 @@ The process of sanctification involves daily death.
 
 > Jesus said to him, 'The one who has bathed does not need to wash, except for his feet, but is completely clean. And you are clean, but not every one of you.'
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/erGdXRin_uw?si=sjR--RuiGxWKBrG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
