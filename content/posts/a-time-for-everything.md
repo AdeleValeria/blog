@@ -28,4 +28,6 @@ So, what does the Bible say about resting and being pruned?
 
 My notes for myself are these: First, I can only find rest in God alone. Second, when God prunes me, removes something from my life, or convicts me to let go of something, I can trust that He does so because He cares for me and is at work in my life. He wants me to bear even more fruit than I am producing right now, and hence the pruning.
 
-Therefore, it is important to receive His pruning instead of trying to resist or escape it. It is part of His work in preparing me for what comes next, just as winter prepares a tree for spring.
+Therefore, it is important to receive His pruning instead of trying to resist or escape it. It is part of His work in preparing me for what comes next, just as winter prepares a tree for the growth of spring.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gJcoBSBVlbA?si=-PGTpST65Bz2FF3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
