@@ -1,5 +1,5 @@
 ---
-title: "Live From Hells Kitchen Vol 2"
+title: "Live From Hell's Kitchen Vol. 2"
 date: 2026-11-05T04:05:06-05:00
 summary: ""
 tags: []
