@@ -15,11 +15,16 @@ In New York as it is in Heaven, indeed. Tonight's worship might have given us a 
 
 The worship song that spoke to me the most tonight was The Fullness:
 > I wanna know the depth,
+
 > I wanna know the height,
+
 > I wanna know the fullness, the fullness of Your love.
 
+
 > Make it real to me,
+
 > Father, I receive,
+
 > Reveal Your love again.
 
 I say yes to this beautiful prayer. I deeply long to know the depth, height, and fullness of God's love, not just through other people's stories and experiences, but for myself, personally and intimately. May God allow me to know Him, and to keep knowing Him more.
