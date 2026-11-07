@@ -14,8 +14,8 @@ In New York as it is in Heaven, indeed. Tonight's worship might have given us a 
 > What no eye has seen, nor ear heard, nor the heart of man imagined, what God has prepared for those who love him.
 
 The worship song that spoke to me the most tonight was The Fullness:
-> I wanna know the depth,
-> I wanna know the height,
+> I wanna know the depth,  
+> I wanna know the height,  
 > I wanna know the fullness, the fullness of Your love.
 >
 > Make it real to me,
