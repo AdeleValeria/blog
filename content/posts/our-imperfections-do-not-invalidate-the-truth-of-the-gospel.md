@@ -1,6 +1,6 @@
 ---
 title: "Our Imperfections Do Not Invalidate the Truth of the Gospel"
-date: 2026-11-08T02:17:15-05:00
+date: 2026-11-07T02:17:15-05:00
 summary: ""
 tags: []
 categories: []
