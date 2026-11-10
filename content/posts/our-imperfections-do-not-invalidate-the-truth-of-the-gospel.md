@@ -10,7 +10,7 @@ toc: false
 
 Today, I had a conversation with a friend that got me thinking about some of my own insecurities around sharing the gospel, particularly those stemming from my personal shortcomings and circumstances.
 
-Sometimes, you see others who don't know Jesus but seem to be leading better lives than you are. But guess what? I've grown in my understanding of the purpose of the gospel.
+Sometimes, you see others who don't know Jesus but seem to be leading better lives than you are. But I thank God for how He has been deepening my understanding of the purpose of the gospel.
 
 The gospel is not a self-help manifesto. It is not a guide on how to lead a better, easier, or more prosperous life. If that were the case, then we would be the gods here, and the gospel would simply be serving us to help us build a better life.
 
