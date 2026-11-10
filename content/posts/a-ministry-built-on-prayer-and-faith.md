@@ -1,7 +1,6 @@
 ---
 title: "A Ministry Built on Prayer and Faith"
 date: 2026-11-09T23:02:31-05:00
-draft: true
 summary: ""
 tags: []
 categories: []
