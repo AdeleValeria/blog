@@ -1,5 +1,5 @@
 ---
-title: "Will the Old Adele Return"
+title: "Will the Old Adele Return?"
 date: 2026-11-13T23:15:58-05:00
 summary: ""
 tags: []
