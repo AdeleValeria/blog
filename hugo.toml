@@ -63,8 +63,8 @@ pagerSize = 5
     url = "/archive/"
     weight = 2
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Bill Splitter"
+    url = "/splitter/"
     weight = 3
 
 [sitemap]
