@@ -8,7 +8,7 @@ series: []
 toc: false
 ---
 
-Today's post is a little different from my usual ones. I'm excited to announce a new page on my website: a little restaurant </a href ="https://adelevaleria.com/splitter">bill splitter</a>!
+Today's post is a little different from my usual ones. I'm excited to announce a new page on my website: a little restaurant </a href="https://adelevaleria.com/splitter">bill splitter</a>!
 
 I certainly vibe-coded the whole thing, but man, the joke is original (wink).
 
