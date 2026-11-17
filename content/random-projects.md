@@ -1,8 +1,7 @@
-
-+++
+---
 title = "Random Projects"
-showDate = false
-+++
+layout = "single"
+---
 
 Some are useful, some are just for fun.
 
