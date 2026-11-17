@@ -1,5 +1,5 @@
 ---
-title: "God How Do You Want Me to Pray"
+title: "God, How Do You Want Me to Pray?"
 date: 2026-11-16T23:51:07-05:00
 summary: ""
 tags: []
