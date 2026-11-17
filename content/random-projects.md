@@ -1,6 +1,6 @@
 ---
 title: "Random Projects"
-layout: "single"
+layout: "archive"
 draft: false
 ---
 
