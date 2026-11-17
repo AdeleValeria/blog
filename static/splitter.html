@@ -69,7 +69,7 @@
     }
 
     .disclaimer {
-      margin-top: 16px;
+      margin: 16px 0 30px;
       font-size: 13px;
       color: var(--muted);
       font-style: italic;
@@ -289,14 +289,12 @@
 
     <h1>What's my share?</h1>
 
-    <div class="eyebrow">
-      <p class="disclaimer">
-        <strong>Disclaimer:</strong> If you use this tool to impress your crush 
-        with your mathematical and bill-splitting skills, I cannot be held 
-        responsible for any potential decrease in your chances of getting 
-        a second date. Please proceed at your own risk.
-      </p>
-    </div>
+    <p class="disclaimer">
+      <strong>Disclaimer:</strong> If you use this tool to impress your crush
+      with your mathematical and bill-splitting skills, I cannot be held
+      responsible for any potential decrease in your chances of getting
+      a second date. Please proceed at your own risk.
+    </p>
 
     <!-- Restaurant bill -->
     <section class="panel" aria-labelledby="bill-title">
@@ -403,10 +401,6 @@
 
     </section>
 
-    <div class="footer">
-      A simpler way to figure out what you owe.
-    </div>
-
   </main>
 
   <script>
@@ -479,7 +473,7 @@
         removeButton.type = 'button';
         removeButton.setAttribute('aria-label', 'Remove item');
         removeButton.title = 'Remove item';
-        removeButton.innerHTML = '&times;';
+        removeButton.textContent = '×';
 
         removeButton.addEventListener('click', () => {
           row.remove();
@@ -529,6 +523,15 @@
             'Enter the total food and drink amount from the restaurant bill first.';
         } else {
           error.textContent = '';
+        }
+
+        // Clear results when inputs are invalid
+        if (error.textContent) {
+          document.getElementById('food-share').textContent = '—';
+          document.getElementById('tax-share').textContent = '—';
+          document.getElementById('tip-share').textContent = '—';
+          document.getElementById('my-total').textContent = '—';
+          return;
         }
 
         const ratio = subtotalCents > 0
