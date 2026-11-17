@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Calculate your share of a restaurant bill, including tax and tip.">
   <title>Restaurant Bill Calculator</title>
+
   <style>
     :root {
       color-scheme: light;
@@ -20,7 +21,9 @@
       --radius: 12px;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
@@ -54,12 +57,24 @@
       margin: 10px 0 12px;
     }
 
-    h2 { font-size: 20px; margin: 0; }
+    h2 {
+      font-size: 20px;
+      margin: 0;
+    }
 
     .intro {
       max-width: 570px;
       color: var(--muted);
       margin: 0 0 30px;
+    }
+
+    .disclaimer {
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--muted);
+      font-style: italic;
+      letter-spacing: normal;
+      text-transform: none;
     }
 
     .panel {
@@ -71,7 +86,9 @@
       box-shadow: 0 3px 16px #4b39200a;
     }
 
-    .panel-head { margin-bottom: 17px; }
+    .panel-head {
+      margin-bottom: 17px;
+    }
 
     .subtle {
       font-size: 13px;
@@ -85,7 +102,10 @@
       gap: 16px;
     }
 
-    .field { display: grid; gap: 6px; }
+    .field {
+      display: grid;
+      gap: 6px;
+    }
 
     .field label {
       font-size: 12px;
@@ -110,7 +130,9 @@
       box-shadow: 0 0 0 3px #87664f18;
     }
 
-    .input-wrap { position: relative; }
+    .input-wrap {
+      position: relative;
+    }
 
     .input-wrap span {
       position: absolute;
@@ -120,20 +142,22 @@
       color: var(--muted);
     }
 
-    .input-wrap input { padding-left: 29px; }
+    .input-wrap input {
+      padding-left: 29px;
+    }
 
     /* Individual items */
-    .items { display: grid; gap: 10px; }
+    .items {
+      display: grid;
+      gap: 10px;
+    }
 
     .item-row {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 150px 38px;
+      grid-template-columns: minmax(0, 1fr) 38px;
       gap: 9px;
       align-items: end;
     }
-
-    .item-row .field input { padding-left: 12px; }
-    .item-row .price-input input { padding-left: 29px; }
 
     .remove-item {
       height: 45px;
@@ -146,9 +170,14 @@
       cursor: pointer;
     }
 
-    .remove-item:hover {
+    .remove-item:hover:not(:disabled) {
       background: var(--soft);
       color: var(--ink);
+    }
+
+    .remove-item:disabled {
+      opacity: .35;
+      cursor: not-allowed;
     }
 
     .add-item {
@@ -162,7 +191,9 @@
       cursor: pointer;
     }
 
-    .add-item:hover { text-decoration: underline; }
+    .add-item:hover {
+      text-decoration: underline;
+    }
 
     .add-item:focus-visible,
     .remove-item:focus-visible {
@@ -198,7 +229,9 @@
       font-size: 14px;
     }
 
-    .line span:first-child { color: var(--muted); }
+    .line span:first-child {
+      color: var(--muted);
+    }
 
     .line strong {
       font-weight: 550;
@@ -225,18 +258,28 @@
       margin-top: 28px;
     }
 
-    @media(max-width: 520px) {
-      .wrap { padding-top: 36px; }
-      .panel { padding: 18px; }
+    @media (max-width: 520px) {
+      .wrap {
+        padding-top: 36px;
+      }
+
+      .panel {
+        padding: 18px;
+      }
+
       .fields {
         grid-template-columns: 1fr;
         gap: 13px;
       }
+
       .item-row {
-        grid-template-columns: minmax(0, 1fr) 112px 34px;
+        grid-template-columns: minmax(0, 1fr) 34px;
         gap: 7px;
       }
-      .remove-item { width: 34px; }
+
+      .remove-item {
+        width: 34px;
+      }
     }
   </style>
 </head>
@@ -256,14 +299,13 @@
         <strong>Disclaimer:</strong> If you use this tool to impress your crush
         with your mathematical and bill-splitting skills on a first date,
         I cannot be held responsible for any potential decrease in your chances
-        of getting a second date. Please proceed at your risk.
+        of getting a second date. Please proceed at your own risk.
       </p>
     </div>
 
-
     <p class="intro">
       Enter the restaurant's food total, tax, and tip,
-      then add the price of your order.
+      then add the prices of your order.
     </p>
 
     <!-- Restaurant bill -->
@@ -321,15 +363,7 @@
 
       <div class="items" id="items">
 
-        <!-- First item -->
         <div class="item-row">
-
-          <div class="field">
-            <label for="item-name-1">ITEM</label>
-            <input id="item-name-1" type="text"
-              placeholder="e.g. Pasta">
-          </div>
-
           <div class="field price-input">
             <label for="item-price-1">PRICE</label>
             <div class="input-wrap">
@@ -341,12 +375,11 @@
           </div>
 
           <button class="remove-item" type="button"
-            aria-label="Remove item" title="Remove item"
-            disabled style="opacity:.35;cursor:not-allowed">
+            aria-label="Remove item" title="Remove item" disabled>
             &times;
           </button>
-
         </div>
+
       </div>
 
       <button class="add-item" id="add-item" type="button">
@@ -391,185 +424,170 @@
 
   </main>
 
-<script>
-(() => {
-  const subtotalField = document.getElementById('subtotal');
-  const taxField = document.getElementById('tax');
-  const tipField = document.getElementById('tip');
-  const itemsContainer = document.getElementById('items');
+  <script>
+    (() => {
+      const subtotalField = document.getElementById('subtotal');
+      const taxField = document.getElementById('tax');
+      const tipField = document.getElementById('tip');
+      const itemsContainer = document.getElementById('items');
 
-  const money = n =>
-    new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD'
-    }).format(n);
+      const money = n =>
+        new Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: 'USD'
+        }).format(n);
 
-  const cents = n =>
-    Math.round((n + Number.EPSILON) * 100);
+      const cents = n =>
+        Math.round((n + Number.EPSILON) * 100);
 
-  const amount = field =>
-    Math.max(0, Number(field.value) || 0);
+      const amount = field =>
+        Math.max(0, Number(field.value) || 0);
 
-  let itemCount = 1;
+      let itemCount = 1;
 
-  // Enable or disable remove buttons
-  function updateRemoveButtons() {
-    const rows = [
-      ...itemsContainer.querySelectorAll('.item-row')
-    ];
+      // Enable or disable remove buttons
+      function updateRemoveButtons() {
+        const rows = [
+          ...itemsContainer.querySelectorAll('.item-row')
+        ];
 
-    rows.forEach(row => {
-      const button = row.querySelector('.remove-item');
-      button.disabled = rows.length === 1;
-      button.style.opacity =
-        rows.length === 1 ? '.35' : '1';
-      button.style.cursor =
-        rows.length === 1 ? 'not-allowed' : 'pointer';
-    });
-  }
+        rows.forEach(row => {
+          const button = row.querySelector('.remove-item');
+          button.disabled = rows.length === 1;
+        });
+      }
 
-  // Add a new item row
-  function addItem() {
-    itemCount += 1;
+      // Add a new item row
+      function addItem() {
+        itemCount += 1;
 
-    const row = document.createElement('div');
-    row.className = 'item-row';
+        const row = document.createElement('div');
+        row.className = 'item-row';
 
-    // Item name
-    const nameField = document.createElement('div');
-    nameField.className = 'field';
+        const priceField = document.createElement('div');
+        priceField.className = 'field price-input';
 
-    const nameLabel = document.createElement('label');
-    nameLabel.htmlFor = `item-name-${itemCount}`;
-    nameLabel.textContent = 'ITEM';
+        const priceLabel = document.createElement('label');
+        priceLabel.htmlFor = `item-price-${itemCount}`;
+        priceLabel.textContent = 'PRICE';
 
-    const nameInput = document.createElement('input');
-    nameInput.id = `item-name-${itemCount}`;
-    nameInput.type = 'text';
-    nameInput.placeholder = 'e.g. Iced tea';
+        const priceWrap = document.createElement('div');
+        priceWrap.className = 'input-wrap';
 
-    nameField.append(nameLabel, nameInput);
+        const currency = document.createElement('span');
+        currency.textContent = '$';
 
-    // Item price
-    const priceField = document.createElement('div');
-    priceField.className = 'field price-input';
+        const priceInput = document.createElement('input');
+        priceInput.className = 'item-price';
+        priceInput.id = `item-price-${itemCount}`;
+        priceInput.type = 'number';
+        priceInput.min = '0';
+        priceInput.step = '0.01';
+        priceInput.inputMode = 'decimal';
+        priceInput.placeholder = '0.00';
 
-    const priceLabel = document.createElement('label');
-    priceLabel.htmlFor = `item-price-${itemCount}`;
-    priceLabel.textContent = 'PRICE';
+        priceWrap.append(currency, priceInput);
+        priceField.append(priceLabel, priceWrap);
 
-    const priceWrap = document.createElement('div');
-    priceWrap.className = 'input-wrap';
+        const removeButton = document.createElement('button');
+        removeButton.className = 'remove-item';
+        removeButton.type = 'button';
+        removeButton.setAttribute('aria-label', 'Remove item');
+        removeButton.title = 'Remove item';
+        removeButton.innerHTML = '&times;';
 
-    const currency = document.createElement('span');
-    currency.textContent = '$';
+        removeButton.addEventListener('click', () => {
+          row.remove();
+          updateRemoveButtons();
+          calculate();
+        });
 
-    const priceInput = document.createElement('input');
-    priceInput.className = 'item-price';
-    priceInput.id = `item-price-${itemCount}`;
-    priceInput.type = 'number';
-    priceInput.min = '0';
-    priceInput.step = '0.01';
-    priceInput.inputMode = 'decimal';
-    priceInput.placeholder = '0.00';
+        row.append(priceField, removeButton);
+        itemsContainer.appendChild(row);
 
-    priceWrap.append(currency, priceInput);
-    priceField.append(priceLabel, priceWrap);
+        updateRemoveButtons();
 
-    // Remove button
-    const removeButton = document.createElement('button');
-    removeButton.className = 'remove-item';
-    removeButton.type = 'button';
-    removeButton.setAttribute('aria-label', 'Remove item');
-    removeButton.title = 'Remove item';
-    removeButton.innerHTML = '&times;';
+        priceInput.addEventListener('input', calculate);
+        priceInput.focus();
 
-    removeButton.addEventListener('click', () => {
-      row.remove();
-      updateRemoveButtons();
+        calculate();
+      }
+
+      // Calculate personal share
+      function calculate() {
+        const subtotal = amount(subtotalField);
+        const tax = amount(taxField);
+        const tip = amount(tipField);
+
+        const itemPrices = [
+          ...itemsContainer.querySelectorAll('.item-price')
+        ];
+
+        const mineCents = itemPrices.reduce(
+          (sum, field) => sum + cents(amount(field)), 0
+        );
+
+        const subtotalCents = cents(subtotal);
+        const taxCents = cents(tax);
+        const tipCents = cents(tip);
+
+        const error = document.getElementById('error');
+
+        if (mineCents > subtotalCents && subtotalCents > 0) {
+          error.textContent =
+            'Your item total is greater than the restaurant food and drink subtotal. Please check the amounts.';
+        } else if (
+          (taxCents > 0 || tipCents > 0 || mineCents > 0) &&
+          subtotalCents === 0
+        ) {
+          error.textContent =
+            'Enter the total food and drink amount from the restaurant bill first.';
+        } else {
+          error.textContent = '';
+        }
+
+        const ratio = subtotalCents > 0
+          ? mineCents / subtotalCents
+          : 0;
+
+        const myTaxCents = Math.round(taxCents * ratio);
+        const myTipCents = Math.round(tipCents * ratio);
+
+        const totalCents =
+          mineCents + myTaxCents + myTipCents;
+
+        document.getElementById('food-share').textContent =
+          money(mineCents / 100);
+
+        document.getElementById('tax-share').textContent =
+          money(myTaxCents / 100);
+
+        document.getElementById('tip-share').textContent =
+          money(myTipCents / 100);
+
+        document.getElementById('my-total').textContent =
+          money(totalCents / 100);
+
+        document.getElementById('explanation').textContent =
+          subtotalCents > 0
+            ? `You account for ${(ratio * 100).toFixed(1)}% of the food and drink subtotal, so you pay the same proportion of the tax and tip.`
+            : 'Your tax and tip are calculated proportionally based on your share of the food and drink subtotal.';
+      }
+
+      // Event listeners
+      document.getElementById('add-item')
+        .addEventListener('click', addItem);
+
+      [subtotalField, taxField, tipField]
+        .forEach(field =>
+          field.addEventListener('input', calculate)
+        );
+
+      itemsContainer.querySelector('.item-price')
+        .addEventListener('input', calculate);
+
       calculate();
-    });
-
-    row.append(nameField, priceField, removeButton);
-    itemsContainer.appendChild(row);
-
-    updateRemoveButtons();
-
-    priceInput.addEventListener('input', calculate);
-    priceInput.focus();
-
-    calculate();
-  }
-
-  // Calculate personal share
-  function calculate() {
-    const subtotal = amount(subtotalField);
-    const tax = amount(taxField);
-    const tip = amount(tipField);
-
-    const itemPrices = [
-      ...itemsContainer.querySelectorAll('.item-price')
-    ];
-
-    const mine = itemPrices.reduce(
-      (sum, field) => sum + amount(field), 0
-    );
-
-    const error = document.getElementById('error');
-
-    if (mine > subtotal && subtotal > 0) {
-      error.textContent =
-        'Your item total is greater than the restaurant food and drink subtotal. Please check the amounts.';
-    } else if (
-      (tax > 0 || tip > 0 || mine > 0) &&
-      subtotal === 0
-    ) {
-      error.textContent =
-        'Enter the total food and drink amount from the restaurant bill first.';
-    } else {
-      error.textContent = '';
-    }
-
-    const ratio = subtotal > 0 ? mine / subtotal : 0;
-
-    const myTax = cents(tax * ratio) / 100;
-    const myTip = cents(tip * ratio) / 100;
-
-    const total =
-      cents(mine) / 100 + myTax + myTip;
-
-    document.getElementById('food-share').textContent =
-      money(mine);
-
-    document.getElementById('tax-share').textContent =
-      money(myTax);
-
-    document.getElementById('tip-share').textContent =
-      money(myTip);
-
-    document.getElementById('my-total').textContent =
-      money(total);
-
-    document.getElementById('explanation').textContent =
-      subtotal > 0
-        ? `You account for ${(ratio * 100).toFixed(1)}% of the food and drink subtotal, so you pay the same proportion of the tax and tip.`
-        : 'Your tax and tip are calculated proportionally based on your share of the food and drink subtotal.';
-  }
-
-  // Event listeners
-  document.getElementById('add-item')
-    .addEventListener('click', addItem);
-
-  [subtotalField, taxField, tipField]
-    .forEach(field =>
-      field.addEventListener('input', calculate)
-    );
-
-  itemsContainer.querySelector('.item-price')
-    .addEventListener('input', calculate);
-
-  calculate();
-})();
-</script>
+    })();
+  </script>
 </body>
 </html>
