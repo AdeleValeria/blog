@@ -562,11 +562,6 @@
 
         document.getElementById('my-total').textContent =
           money(totalCents / 100);
-
-        document.getElementById('explanation').textContent =
-          subtotalCents > 0
-            ? `You account for ${(ratio * 100).toFixed(1)}% of the food and drink subtotal, so you pay the same proportion of the tax and tip.`
-            : 'Your tax and tip are calculated proportionally based on your share of the food and drink subtotal.';
       }
 
       // Event listeners
