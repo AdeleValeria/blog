@@ -1,6 +1,7 @@
 
 +++
 title = "Random Projects"
+showDate = false
 +++
 
 Some are useful, some are just for fun.
