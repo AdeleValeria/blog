@@ -66,6 +66,10 @@ pagerSize = 5
     name = "Bill Splitter"
     url = "/splitter/"
     weight = 3
+  [[menu.main]]
+    name = "Random Projects"
+    url = "/random-projects/"
+    weight = 4
 
 [sitemap]
   changefreq = "weekly"
