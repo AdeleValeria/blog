@@ -1,6 +1,7 @@
 ---
-title = "Random Projects"
-layout = "single"
+title: "Random Projects"
+layout: "single"
+draft: false
 ---
 
 Some are useful, some are just for fun.
