@@ -65,8 +65,8 @@ paginate = 5
     url = "/splitter/"
     weight = 3
   [[menu.main]]
-    name = "Random Projects"
-    url = "/random-projects/"
+    name = "Random"
+    url = "/random/"
     weight = 4
 
 [sitemap]
