@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,88 +14,109 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             max-width: 720px;
             margin: 80px auto;
             padding: 0 24px;
             font-family: 'Merriweather', serif;
-            line-height: 1.8;
+            font-size: 15px;
+            line-height: 1.85;
             color: #333;
         }
 
-        h1, h2, h3 {
+        h1, h2, h3, .back {
             font-family: 'Inter', sans-serif;
         }
 
         h1 {
             font-size: 2rem;
-            margin-bottom: 1rem;
+            font-weight: 600;
+            letter-spacing: -0.04em;
+            line-height: 1.3;
+            margin: 2rem 0 1.2rem;
         }
 
         h2 {
-            font-size: 1.4rem;
-            font-weight: 500;
-            margin-top: 3rem;
-            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            letter-spacing: -0.025em;
+            margin: 0 0 1.4rem;
         }
 
         h3 {
-            font-size: 1rem;
+            font-size: .95rem;
             font-weight: 600;
-            margin-top: 1.8rem;
-            margin-bottom: .6rem;
+            margin: 2rem 0 .8rem;
+            color: #555;
         }
 
         p {
-            margin-bottom: 1.2rem;
+            margin: 0 0 1.2rem;
         }
 
         a {
             color: inherit;
             text-decoration: underline;
-            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 4px;
+            transition: color .2s ease;
         }
 
         a:hover {
-            color: #777;
+            color: #888;
         }
 
         .back {
-            font-family: 'Inter', sans-serif;
-            font-size: .9rem;
+            font-size: .85rem;
             text-decoration: none;
+            color: #666;
         }
 
         .intro {
-            margin: 1.5rem 0 2rem;
+            margin: 1.5rem 0 3rem;
         }
 
-        ul, ol {
-            padding-left: 1.5rem;
-        }
-
-        li {
-            margin-bottom: 1rem;
-        }
-
-        li small {
-            display: block;
-            font-size: .82rem;
-            line-height: 1.7;
-            color: #777;
-            margin-top: .2rem;
+        .intro p {
+            color: #555;
         }
 
         .section {
             margin-top: 3rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid #ddd;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        ol, ul {
+            padding-left: 1.5rem;
+            margin: 0;
+        }
+
+        li {
+            padding-left: .25rem;
+            margin-bottom: 1.15rem;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+        li small {
+            display: block;
+            font-family: 'Merriweather', serif;
+            font-size: .82rem;
+            line-height: 1.75;
+            color: #777;
+            margin-top: .25rem;
         }
 
         .invitation {
-            margin-top: 3rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid #ddd;
+            margin-top: 3.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e5e5;
         }
 
         .invitation p {
@@ -104,6 +126,20 @@
         @media (max-width: 600px) {
             body {
                 margin-top: 40px;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            .section {
+                margin-top: 2.5rem;
+                padding-top: 1.5rem;
             }
         }
     </style>
@@ -113,16 +149,7 @@
 
     <a class="back" href="/">← Back to home</a>
 
-    <h1>Christianity Resources</h1>
-
-    <div class="intro">
-        <p>
-            If you're curious about Christianity or interested in learning
-            more about the faith, here are a few resources I would recommend!
-            Whether you're just beginning to explore who Jesus is or looking
-            to grow deeper in your faith, I hope you find something helpful here.
-        </p>
-    </div>
+    <h1>Resources</h1>
 
     <div class="section">
         <h2>Explore Christianity</h2>
@@ -133,7 +160,7 @@
                     Two Ways to Live
                 </a>
                 <small>
-                    A visual explanation of the gospel and the Christian message.
+                    A simple visual introduction to the good news of Jesus in under five minutes.
                 </small>
             </li>
 
@@ -141,7 +168,6 @@
                 <a href="https://www.thechosen.tv/" target="_blank" rel="noopener noreferrer">
                     The Chosen
                 </a>
-                (TV series)
                 <small>
                     A series depicting the life and ministry of Jesus.
                 </small>
@@ -152,8 +178,7 @@
                     Alpha
                 </a>
                 <small>
-                    A welcoming, in-person space to explore questions about life,
-                    faith, and Christianity through conversations with others.
+                    A welcoming, in-person gathering to explore life, faith, and Christianity through conversation over food. 
                     Let me know if you'd like to check out an Alpha course in NYC.
                     I'd be happy to come with you!
                 </small>
@@ -166,41 +191,47 @@
 
         <ol>
             <li>
-                <a href="https://www.bible.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.bible.com/bible/116/MRK.1.NLT" target="_blank" rel="noopener noreferrer">
                     The Bible
                 </a>
                 <small>
-                    Read the Bible online or explore different Bible translations.
+                    You can read the Bible online or through apps such as
+                    <a href="https://www.youversion.com/the-bible-app/" target="_blank" rel="noopener noreferrer">YouVersion</a>.
+                    If you are reading the Bible for the first time, I recommend the New Living
+                    Translation (NLT) and beginning with the Gospel of Mark. You can then proceed
+                    to the other Gospels (Matthew, Luke, and John), followed by Acts and Romans,
+                    before continuing with the rest of the New Testament.
                 </small>
             </li>
 
             <li>
-                <a href="https://www.bible.com/reading-plans" target="_blank" rel="noopener noreferrer">
-                    Bible Reading Plans
-                </a>
-                <small>
-                    Guided reading plans to help you read Scripture regularly
-                    and explore different topics and books of the Bible.
-                </small>
-            </li>
-
-            <li>
-                <a href="https://bibleproject.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://bibleproject.com/videos/collections/new-testament/" target="_blank" rel="noopener noreferrer">
                     BibleProject
                 </a>
                 <small>
-                    Animated videos exploring the books, themes, and overarching
-                    story of the Bible.
+                    Animated video overviews of each book of the New Testament.
                 </small>
             </li>
 
             <li>
-                <a href="https://bibleproject.com/classroom/" target="_blank" rel="noopener noreferrer">
-                    BibleProject Classroom
+                <a href="https://www.bible.com/reading-plans/42399-the-bible-recap-with-tara-leigh-cobble" target="_blank" rel="noopener noreferrer">
+                    Read the Bible in One Year
                 </a>
                 <small>
-                    Free, in-depth courses for those who want to study Scripture
-                    more deeply.
+                    a guided reading plan to help you engage with Scripture regularly,
+                    accompanied by videos to deepen your understanding. You can explore
+                    <a href="https://www.bible.com/reading-plans" target="_blank" rel="noopener noreferrer">other reading plans here</a>.
+                </small>
+            </li>
+
+            <li>
+                <a href="https://learn.e360bible.org/all-courses/free-bible-course-gospel-of-mark/"
+                   target="_blank" rel="noopener noreferrer">
+                    Gospel of Mark Bible Study Course
+                </a>
+                <small>
+                    A free, in-depth Bible study course exploring the historical and cultural significance of Jesus as the Christ, 
+                    His life and ministry, the meaning of His death and resurrection, and what it means to follow Him.
                 </small>
             </li>
 
@@ -209,116 +240,81 @@
                     Got Questions
                 </a>
                 <small>
-                    Answers to common questions about Christianity, theology,
-                    and the Bible.
-                </small>
-            </li>
-
-            <li>
-                <a href="https://www.thegospelcoalition.org/" target="_blank" rel="noopener noreferrer">
-                    The Gospel Coalition
-                </a>
-                <small>
-                    Articles, podcasts, and resources on biblical teaching
-                    and Christian living.
+                    Answers to common questions about Christianity and the Bible.
                 </small>
             </li>
         </ol>
     </div>
 
     <div class="section">
-        <h2>Sermons and Preaching</h2>
+    <h2>Sermons and Preaching</h2>
 
-        <h3>Preachers</h3>
-
-        <ul>
-            <li>
-                <a href="https://gospelinlife.com/sermons/" target="_blank" rel="noopener noreferrer">
-                    Timothy Keller
-                </a>
-                <small>
-                    Sermons on the gospel, theology, Christian living,
-                    and engaging with culture.
-                </small>
-            </li>
-
-            <li>
-                <a href="https://www.desiringgod.org/messages" target="_blank" rel="noopener noreferrer">
-                    John Piper
-                </a>
-                <small>
-                    Sermons on the glory of God, Scripture, Christian joy,
-                    and discipleship.
-                </small>
-            </li>
-
-            <li>
-                <a href="https://www.youtube.com/results?search_query=Paul+A+Michell+sermons" target="_blank" rel="noopener noreferrer">
-                    Paul A. Michell
-                </a>
-            </li>
-        </ul>
-
-        <h3>Churches</h3>
-
-        <ul>
-            <li>
-                <a href="https://lakepointe.church/sermon-resources/" target="_blank" rel="noopener noreferrer">
-                    Lakepointe Church
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.youtube.com/results?search_query=Christ+Commission+Church+sermons" target="_blank" rel="noopener noreferrer">
-                    Christ Commission Church
-                </a>
-            </li>
-
-            <li>
-                <a href="https://church.nyc/sermonguides" target="_blank" rel="noopener noreferrer">
-                    Church of the City, New York
-                </a>
-                <small>
-                    Sunday sermons and sermon series from Church of the City, NYC.
-                </small>
-            </li>
-        </ul>
-
-        <h3>Sermon Libraries</h3>
-
-        <ul>
-            <li>
-                <a href="https://www.sermonindex.net/" target="_blank" rel="noopener noreferrer">
-                    SermonIndex
-                </a>
-                <small>
-                    A collection of sermons from historical and contemporary
-                    preachers, along with Bible study resources.
-                </small>
-            </li>
-        </ul>
+    <ul>
+        <li>
+            <a href="https://gospelinlife.com/sermons/" target="_blank" rel="noopener noreferrer">
+                Timothy Keller
+            </a>
+        </li>
+        <li>
+            <a href="https://www.desiringgod.org/messages" target="_blank" rel="noopener noreferrer">
+                John Piper
+            </a>
+        </li>
+        <li>
+            <a href=" https://www.youtube.com/watch?v=1isjzqF18tk&list=PLmo8sihYO3ZD3R1X1JTduqT5LkwaLzNPa" target="_blank" rel="noopener noreferrer">
+                Paul Washer (Freedom In The Gospel)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@2819Church/videos"
+               target="_blank" rel="noopener noreferrer">
+                2819 Church
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@LakepointeChurch/videos" target="_blank" rel="noopener noreferrer">
+                Lakepointe Church
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@CCFmainTV/videos"
+               target="_blank" rel="noopener noreferrer">
+                Christ's Commission Fellowship
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@ChurchoftheCityNewYork/videos" target="_blank" rel="noopener noreferrer">
+                Church of the City New York (my home church)
+            </a>
+        </li>
+        <li>
+            <a href="https://sermonindex.net/" target="_blank" rel="noopener noreferrer">
+                A collection of over 70,000 sermons.
+            </a>
+        </li>
+    </ul>
     </div>
+
 
     <div class="section">
         <h2>Books</h2>
 
         <ol>
-            <li><i>Mere Christianity</i> by C. S. Lewis</li>
-            <li><i>The Reason for God</i> by Timothy Keller</li>
-            <li><i>More Than a Carpenter</i> by Josh McDowell</li>
-            <li><i>The Case for Christ</i> by Lee Strobel</li>
-            <li><i>Seeking Allah, Finding Jesus</i> by Nabeel Qureshi</li>
-            <li><i>Knowing God</i> by J. I. Packer</li>
+            <li><a href="https://www.harpercollins.com/products/mere-christianity-c-s-lewis" target="_blank" rel="noopener noreferrer"><i>Mere Christianity</i></a> by C. S. Lewis</li>
+            <li><a href="https://timothykeller.com/books/the-reason-for-god" target="_blank" rel="noopener noreferrer"><i>The Reason for God</i></a> by Timothy Keller</li>
+            <li><a href="https://www.josh.org/books/more-than-a-carpenter/" target="_blank" rel="noopener noreferrer"><i>More Than a Carpenter</i></a> by Josh McDowell</li>
+            <li><a href="https://www.zondervan.com/p/the-case-for-christ/" target="_blank" rel="noopener noreferrer"><i>The Case for Christ</i></a> by Lee Strobel</li>
+            <li><a href="https://www.zondervan.com/p/seeking-allah-finding-jesus/" target="_blank" rel="noopener noreferrer"><i>Seeking Allah, Finding Jesus</i></a> by Nabeel Qureshi</li>
+            <li><a href="https://www.ivpress.com/knowing-god" target="_blank" rel="noopener noreferrer"><i>Knowing God</i></a> by J. I. Packer</li>
         </ol>
     </div>
 
     <div class="invitation">
-        <h2>Need Someone to Talk To?</h2>
+        <h2>Let's Talk!</h2>
 
         <p>
-            If you have questions about Christianity, would like someone to pray
-            with you, or simply want to have a conversation about faith, please
-            feel free to reach out. I'd love to hear from you!
+            If you'd like someone to pray with you or simply want to have a conversation about faith, 
+            please feel free to reach out. I'd love to hear from you!
         </p>
 
         <p>
@@ -328,3 +324,4 @@
 
 </body>
 </html>
+
