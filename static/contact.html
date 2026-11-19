@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: inherit;
+      margin: 0;
+      padding: 40px 20px;
+      background: transparent;
+      color: inherit;
+    }
+
+    .contact-container {
+      max-width: 600px;
+      margin: 40px auto;
+    }
+
+    .contact-container h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      color: #777;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .contact-form {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 28px;
+    }
+
+    .contact-form label:not(.anonymous-option) {
+      display: block;
+      font-size: 0.9rem;
+      margin: 18px 0 7px;
+    }
+
+    .contact-form input:not([type="checkbox"]),
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      font-size: 0.95rem;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: #888;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 130px;
+    }
+
+    .anonymous-option {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      margin: 20px 0;
+    }
+
+    .anonymous-option input {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+
+    .privacy-note {
+      color: #888;
+      font-size: 0.8rem;
+      line-height: 1.5;
+      margin-top: 10px;
+    }
+
+    .contact-form button {
+      margin-top: 22px;
+      padding: 12px 22px;
+      border: none;
+      border-radius: 6px;
+      background: #333;
+      color: white;
+      font: inherit;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .contact-form button:hover {
+      background: #555;
+    }
+
+    @media (max-width: 480px) {
+      .contact-form {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="contact-container">
+    <h1>Contact me</h1>
+
+    <p class="intro">
+      Have something to share? I'd love to hear from you.
+      Whether you have a question, a thought, a suggestion,
+      or simply want to say hello, feel free to drop me a message!
+    </p>
+
+    <div class="contact-form">
+
+      <form
+        action="https://formsubmit.co/hello.adelev@gmail.com"
+        method="POST"
+      >
+
+        <!-- Form settings -->
+        <input type="hidden" name="_subject"
+          value="New message from your website!">
+
+        <input type="hidden" name="_captcha" value="true">
+
+        <!-- Anonymous option -->
+        <label class="anonymous-option">
+          <input
+            type="checkbox"
+            id="anonymous"
+            name="Anonymous"
+            value="Yes"
+          >
+          Send anonymously
+        </label>
+
+        <!-- Name and email -->
+        <div id="identity-fields">
+
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+          >
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+          >
+          
+          <label for="address">Address (optional)</label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            placeholder="Your address"
+          >
+          
+        </div>
+
+        <!-- Subject -->
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="What's this about?"
+        >
+
+        <!-- Message -->
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+
+        <p class="privacy-note">
+          Your name and email are optional. If you choose to
+          send anonymously, you can leave those fields blank.
+          Please note that anonymous submissions are not
+          guaranteed to be completely untraceable.
+        </p>
+
+        <button type="submit">Send message →</button>
+
+      </form>
+    </div>
+  </main>
+
+  <script>
+    const anonymousCheckbox =
+      document.getElementById('anonymous');
+
+    const identityFields =
+      document.getElementById('identity-fields');
+
+    anonymousCheckbox.addEventListener('change', function () {
+      identityFields.style.display =
+        this.checked ? 'none' : 'block';
+    });
+  </script>
+
+</body>
+</html>
