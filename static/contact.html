@@ -122,6 +122,40 @@
       background: #555;
     }
 
+    /* Other ways to connect */
+    .connect-section {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ddd;
+    }
+
+    .connect-section h2 {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .connect-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .connect-buttons a {
+      display: inline-block;
+      padding: 9px 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .connect-buttons a:hover {
+      background: #f2f2f2;
+    }
+
     @media (max-width: 600px) {
       body {
         margin-top: 40px;
@@ -137,17 +171,19 @@
   <h1>Contact me</h1>
 
   <p class="intro">
-    Use this form to say hello or to request a basic Bible and/or *Mere Christianity* by C. S. Lewis. 
-    Please include your complete US mailing address (including unit number, city, state, and ZIP code). 
-    One request per person, please. You're also welcome to submit anonymously if you want to ask a question, 
-    and I will reply in a post
+    Use this form to say hello or to request a basic Bible and/or
+    <i>Mere Christianity</i> by C. S. Lewis. Please include your
+    complete US mailing address (including unit number, city, state,
+    and ZIP code). One request per person, please. You're also
+    welcome to submit anonymously if you have a question.
+    I'd be happy to respond in a future blog post!
   </p>
 
   <div class="contact-form">
 
     <form action="https://formsubmit.co/hello.adelev@gmail.com" method="POST">
 
-      <input type="hidden" name="_subject" value="New message from adeleValeria.com">
+      <input type="hidden" name="_subject" value="New message from adelevaleria.com">
 
       <!-- Anonymous option -->
       <label class="anonymous-option">
@@ -173,10 +209,10 @@
 
         <label for="address">Mailing address</label>
         <textarea
-        id="address"
-        name="address"
-        rows="3"
-        placeholder="Street address, apartment/unit number, city, state, ZIP code"
+          id="address"
+          name="address"
+          rows="3"
+          placeholder="Street address, apartment/unit number, city, state, ZIP code"
         ></textarea>
 
         <label for="email">Email</label>
@@ -213,6 +249,7 @@
 
   </div>
 
+  <!-- Anonymous form toggle -->
   <script>
     const anonymousCheckbox = document.getElementById('anonymous');
     const identityFields = document.getElementById('identity-fields');
@@ -222,5 +259,29 @@
     });
   </script>
 
+  <!-- Other ways to connect -->
+  <div class="connect-section">
+
+    <h2>Other ways to connect</h2>
+
+    <div class="connect-buttons">
+
+      <a
+        href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Instagram ↗
+      </a>
+
+      <a href="mailto:hello.adelev@gmail.com">
+        Email ↗
+      </a>
+
+    </div>
+
+  </div>
+
 </body>
 </html>
+
