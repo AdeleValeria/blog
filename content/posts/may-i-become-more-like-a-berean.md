@@ -20,5 +20,5 @@ I believe that every Christian ought to aspire to become more like the Bereans, 
 
 May I become more like a Berean!
 
-By the way, I've been using the <a href="https://prs.app/bible/gen.1.nlt">Public Reading of Scripture (PRS) app</a> to listen to the Bible. It's free, allows offline downloads, and supports continuous chapter-by-chapter playback. The audio is also dramatized, with multiple readers voicing different characters in the NLT version!
+Anyway, I've been using the <a href="https://prs.app/bible/gen.1.nlt">Public Reading of Scripture (PRS) app</a> to listen to the Bible. It's free, allows offline downloads, and supports continuous chapter-by-chapter playback. The audio is also dramatized, with multiple readers voicing different characters in the NLT version!
 
