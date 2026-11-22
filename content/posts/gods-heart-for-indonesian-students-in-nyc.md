@@ -1,5 +1,5 @@
 ---
-title: "Gods Heart for Indonesian Students in Nyc"
+title: "God's Heart for Indonesian Students in NYC"
 date: 2026-11-20T23:59:29-05:00
 summary: ""
 tags: []
