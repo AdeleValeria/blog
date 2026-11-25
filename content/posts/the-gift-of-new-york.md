@@ -51,3 +51,8 @@ Funny enough, 2 Corinthians 12:9–10 have long been my favorite Bible verses. A
 May my life bear witness not to what I have accomplished, where I have been, or what dreams I have fulfilled, but to how gracious and faithful God has been to me. At the end of my life, may I be forgotten, except for His grace.
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5R7MwLBKlUPzRptEuQFY1I?utm_source=generator&si=d62e7fbaec484f41" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<video controls playsinline preload="metadata" style="width: 100%; max-width: 400px; border-radius: 8px;">
+    <source src="/images/brooklyn.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
