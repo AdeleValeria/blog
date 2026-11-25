@@ -10,6 +10,8 @@ toc: false
 
 My Monday small group hosted a Thanksgiving Friendsgiving dinner today, and it was such a feast: meat lasagna, roast chicken, Brussels sprouts with bacon, cornbread casserole, sweet kale salad, mashed potatoes, and pumpkin pie.
 
+![alt text](/images/mondaysg.jpeg)
+
 One of our prompts around the table was: "What's one unexpected gift or moment of joy from this past year that you're especially thankful for?"
 
 My answer was obvious: getting to move to New York City.
