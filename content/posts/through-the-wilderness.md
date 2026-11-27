@@ -21,5 +21,3 @@ And I asked myself why I was so concerned about saving time so that I could serv
 God is sovereign over time. He determines the number of days I have on this earth. And if He can restore the years that the swarming locusts have eaten, as He promises in Joel 2:25, surely I do not need to be so anxious about the seemingly inefficient time I spend in preparation. He can redeem those years, too, and bring forth even greater fruit in His appointed time.
 
 But this is certainly easier said than done. There are a few things I have been praying for and waiting for, and I might very well be in the wilderness right now. May God grow my trust in His timing. May I be willing for God to work **in** me, and not just through me.
-
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4WMpNinaiTb0bZ05MUsPfF?utm_source=generator&si=ec7e3ce403a64a12" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
