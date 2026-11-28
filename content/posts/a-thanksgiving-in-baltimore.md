@@ -1,5 +1,5 @@
 ---
-title: "A Thanksgiving in Baltimore"
+title: "Baltimore: A Thanksgiving Dinner"
 date: 2026-11-26T02:55:44-05:00
 summary: ""
 tags: []
